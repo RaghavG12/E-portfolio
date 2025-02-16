@@ -348,3 +348,24 @@ nav {
 }
 
 /* FOOTER */
+
+footer {
+    background-color: #242424;
+}
+
+.footer__row {
+    /* What having a % padding does is it helps the footer scale with the width */
+    padding: 8% 0;
+}
+
+.footer__socials {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.footer__social--link {
+    color: white;
+}
