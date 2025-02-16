@@ -67,6 +67,8 @@ nav {
 }
 
 .nav__link--list {
+    /* The nav__link__list is unordered list which puts items in a vertical list 
+    Using display flex, it makes them flex items so now they are in a row  */
     display: flex;
 }
 
@@ -203,6 +205,10 @@ nav {
     max-width: 100px;
     max-height: 100px;
     transition: all 300ms ease;
+}
+
+.img__js {
+    height: 95px;
 }
 
 /* when you hover over the different language icons - cool animations */
