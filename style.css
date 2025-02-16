@@ -244,3 +244,107 @@ nav {
     opacity: 1;
     transition: all 300ms ease;
 }
+
+/* PROJECTS */
+
+/* So once there are numerous projects to have on e-portfolio */
+.project {
+    margin-bottom: 128px;
+}
+
+.project:last-child {
+    margin-bottom: 64px;
+}
+
+.project__img {
+    width: 100%;
+    transition: all 450ms ease;
+}
+
+.project__wrapper {
+    display: flex;
+    box-shadow: 0 20px 80px rgba(0, 0, 0, 0.45);
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+/* This is a pseudo-element and now we can apply styles
+ before the actual content in project__wrapper */
+.project__wrapper:before {
+    /* This line below is necessary when using pseudo-elements */
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* This way when you hover over the project image, the opacity increases so the background color 
+    is somewhat darker and I can add text explaining the project over the project image */
+    background-color: #1c1d25;
+    opacity: 0;
+    transition: opacity 450ms ease;
+    /* There are two transitions for this project wrapper and the opacity one wasn't working
+    so this makes the opacity one appear first */
+    z-index: 2;
+}
+
+
+.project:hover .project__wrapper:before {
+    opacity: 0.8;
+}
+
+.project:hover .project__img {
+    transform: scale(1.05);
+    filter: blur(5px);
+}
+
+.project__list {
+    padding-top: 36px;
+}
+
+.project__description {
+    /* This makes sure the text does not affect anything else inside project__wrapper already */
+    position: absolute;
+    top: 50%;
+    left: 90px;
+    transform: translateY(100%);
+    max-width: 550px;
+    z-index: 3;
+    /* Because I've moved it to z-index 3 it means it shows first 
+    I don't want the text to block the background image so the opacity is 0 */
+    opacity: 0;
+    transition: opacity 300ms ease;
+    transition: transform 450ms;
+}
+
+.project__description--title, 
+.project__description--subtitle, 
+.project__description--para, 
+.project__description--link {
+    text-align: left;
+    color: white;
+}
+
+.project__description--title {
+    font-size: 40px;
+    margin: 8px 0;
+}
+
+.project__description--para {
+    margin: 16px 0;
+}
+
+.project__description--link {
+    font-size: 20px;
+    margin-right: 16px;
+    text-decoration: none;
+}
+
+.project:hover .project__description {
+    opacity: 1;
+    /* When we hover over project image, the text appears in the right spot */
+    transform: translateY(-50%);
+}
+
+/* FOOTER */
