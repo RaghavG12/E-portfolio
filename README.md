@@ -2,7 +2,7 @@ Raghav Goyal's E-Portfolio
 
 **Overview**
 
-Welcome to my personal e-portfolio! This website showcases my background, skills, and projects as an aspiring software engineer with a strong passion for financial markets. The site is built using HTML, CSS, and JavaScript and is hosted using GitHub Pages.
+Welcome to my personal e-portfolio! This website showcases my background, skills, and projects as an aspiring software engineer with a strong passion for financial markets. The site is built using HTML and CSS and is hosted using GitHub Pages.
 
 **Features**
 
@@ -26,8 +26,6 @@ You can view the website live at:
 HTML - Structure of the website
 
 CSS - Styling and animations
-
-JavaScript - Smooth scrolling and interactivity
 
 Font Awesome - Icons for social media and contact links
 
