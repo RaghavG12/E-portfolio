@@ -504,4 +504,8 @@ footer {
         text-align: center;
         margin: 12px 0;
     }
+
+    .footer {
+        display: none;
+    }
 }
