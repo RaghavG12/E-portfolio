@@ -1,10 +1,10 @@
 Raghav Goyal's E-Portfolio
 
-Overview
+**Overview**
 
 Welcome to my personal e-portfolio! This website showcases my background, skills, and projects as an aspiring software engineer with a strong passion for financial markets. The site is built using HTML, CSS, and JavaScript and is hosted using GitHub Pages.
 
-Features
+**Features**
 
 About Me Section: Provides an introduction to who I am and my academic background.
 
@@ -16,12 +16,12 @@ Projects Section: Highlights my key projects, including descriptions and links t
 
 Contact Button: Allows visitors to reach out via email.
 
-Live Demo
+**Live Demo **
 
 You can view the website live at:
 🔗 raghavg12.github.io/E-portfolio
 
-Technologies Used
+**Technologies Used**
 
 HTML - Structure of the website
 
@@ -33,7 +33,7 @@ Font Awesome - Icons for social media and contact links
 
 GitHub Pages - Hosting the website
 
-Installation & Setup
+**Installation & Setup**
 
 If you want to run this project locally:
 
@@ -47,7 +47,7 @@ cd E-portfolio
 
 Open index.html in a web browser.
 
-Smooth Scrolling Fix
+**Smooth Scrolling Fix**
 
 To enable smooth scrolling for navigation, I added the following CSS:
 
@@ -55,7 +55,7 @@ html {
     scroll-behavior: smooth;
 }
 
-Contact
+**Contact**
 
 If you'd like to connect, feel free to reach out:
 
